@@ -13,7 +13,7 @@
 /* BASE RULES */
 /**************/
 
-/*html {
+html {
   font-size: 100%;
 }
 
@@ -150,7 +150,7 @@ img {
 // .masthead
 //
 
-/*.wrapper-masthead {
+.wrapper-masthead {
   margin-bottom: 50px;
 }
 
