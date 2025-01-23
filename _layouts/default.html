@@ -9,7 +9,6 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -18,10 +17,9 @@
 
   <body>
     <div class="container-fluid">
-      <header class="masthead clearfix">
+      <header>
         <div class="site-info">
           <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-          <p class="site-description">{{ site.description }}</p>
         </div>
 
         <!--<nav>
@@ -36,7 +34,7 @@
         <div class="row marketing">
           <div class="col-lg-6">
             <h2>Mobil Tua Anda Bingung Mau jual Kemana?</h2>
-            <p>Insha kami beli dengan harga terbaik.</p>
+            <p class="site-description">{{ site.description }}</p>
           </div>
             
           <div class="col-lg-6">
