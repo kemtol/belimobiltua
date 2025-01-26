@@ -8,3 +8,6 @@ header{
 #jumbotron{
   background-color: gold;
 }
+#jumbotron .site-description{
+  font-size: 1.5em;
+}
