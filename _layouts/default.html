@@ -32,10 +32,12 @@
     <div id="jumbotron" >
       <div class="container">
         <div class="row marketing">
-          <div class="col-lg-7 p-4 mt-4 mb-4">
-            <h2 class="mb-3"><strong>Mobil Tua Anda Bingung Mau jual Kemana?</strong></h2>
-            <p class="site-description">{{ site.description }}</p>
-            <img src="{{ site.baseurl }}/images/jumbotron.png" class="img-fluid" alt="Responsive image">
+          <div class="col-lg-7 p-4 mt-4 mb-4" style="position: relative;">
+            <div style="position: relative;">
+              <h2 class="mb-3"><strong>Mobil Tua Anda Bingung Mau jual Kemana?</strong></h2>
+              <p class="site-description">{{ site.description }}</p>
+            </div>
+            <img id="jumbotronImage" src="{{ site.baseurl }}/images/jumbotron.png" class="img-fluid" alt="Responsive image">
           </div>
             
           <div id="carForm" class="col-lg-5 p-4 mt-4 mb-4">
