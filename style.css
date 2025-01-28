@@ -1,7 +1,10 @@
 header{
-  h1 a{
-    color:mediumaquamarine;
-    font-size: 0.75em;
+  h1{
+    font-size: 2em;
+    a{
+      color: black;
+      text-decoration: none;
+    }
   }
 }
 
@@ -10,4 +13,8 @@ header{
 }
 #jumbotron .site-description{
   font-size: 1.5em;
+}
+
+#jumbotron #carForm{
+  background-color: white;
 }
