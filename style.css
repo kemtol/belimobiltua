@@ -1,11 +1,10 @@
-header{
-  h1{
+header h1{
     font-size: 2em;
-    a{
-      color: black;
-      text-decoration: none;
-    }
-  }
+}
+
+header h1 a{
+    color: ##000;
+    text-decoration: none;
 }
 
 #jumbotron{
@@ -26,4 +25,8 @@ header{
 
 #jumbotron #carForm{
   background-color: white;
+}
+
+#threeSteps{
+  background-color: #f3f3f3
 }
