@@ -7,6 +7,16 @@
             allowClear: true
         });
         
+        // Load merk mobil from a text file
+        $.get("/files/merk_mobil.txt", function(data) {
+            let merkOptions = data.split("\n");
+            merkOptions.forEach(function(merk) {
+                if (merk.trim() !== "") {
+                    $("#merkMobil").append(`<option value="${merk.trim()}">${merk.trim()}</option>`);
+                }
+            });
+        });
+        
         $("form").submit(function(event) {
             event.preventDefault(); // Prevent actual form submission
     
