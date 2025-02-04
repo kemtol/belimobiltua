@@ -8,7 +8,7 @@
         });
         
         // Load merk mobil from a text file
-        $.get("{{ site.baseurl }}/merk_mobil.txt", function(data) {
+        $.get("{{ site.baseurl }}/files/merk_mobil.txt", function(data) {
             let merkOptions = data.split("\n");
             merkOptions.forEach(function(merk) {
                 if (merk.trim() !== "") {
