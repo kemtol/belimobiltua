@@ -13,11 +13,17 @@ header h1 a{
     color: inherit; /* Menggunakan warna default dari parent (h1) */
     transition: opacity 0.3s ease; /* Efek transisi halus */
 }
+header h1 a:hover {
+  color: #201e1e;
+}
 
 nav a {
   text-decoration: none; /* Menghilangkan underline */
   color: inherit; /* Menjaga warna teks tetap sesuai dengan elemen parent */
   transition: opacity 0.3s ease; /* Efek transisi untuk redup */
+}
+nav a:hover {
+  color: #201e1e;
 }
 
 #jumbotron{
@@ -43,10 +49,17 @@ nav a {
 }
 
 #threeSteps{
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
+  position: relative;
+  z-index: 2;
 }
 
 #threeSteps .step{
   background-color: white;
   border: 1px solid floralwhite;
+}
+
+#threeSteps .step img{
+  border: 2px solid #e9c70d;
+  border-radius: 50%;
 }
